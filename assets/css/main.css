@@ -1,0 +1,373 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+}
+h1 {
+  color: #169e84;
+  font-family: "Pacifico", cursive;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 0;
+  font-size: 27px;
+}
+.hero {
+  height: auto;
+  background-color: #169e84;
+  margin: 0;
+  padding: 0;
+}
+.hero img {
+  height: auto;
+  width: 100%;
+}
+.navbar-nav {
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold !important;
+}
+.navbar-nav a {
+  color: #169e84 !important;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 0.5s linear;
+  transition: color 0.5s linear;
+}
+
+.navbar-nav a:hover {
+  background-color: #169e84 !important;
+  color: #fff !important;
+  border-radius: 5px;
+  padding: 0;
+  margin: 0;
+  -webkit-transition: all 0.5s linear;
+  transition: color 0.5s linear;
+}
+.activo {
+  background-color: #169e84;
+  color: #fff;
+  border-radius: 5px;
+  padding: 0 7px 0 7px;
+  margin-right: 10px;
+}
+
+.descripcion {
+  background-color: #169e84;
+  color: #fff;
+  padding: 20px 0 5px 0;
+}
+.descripcion article p {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+}
+.descripcion h2 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contenido {
+  height: auto;
+}
+.contenido .cola {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.contenido .colb {
+  border: solid 1px green;
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.contenido h2 {
+  font-size: 25px;
+  font-weight: 600;
+  color: #169e84;
+}
+.contenido p {
+  color: grey;
+  font-size: 16px;
+}
+.contenido img {
+  height: auto;
+  width: 100%;
+}
+.hands {
+  border-bottom: solid 10px #169e84;
+  text-align: center;
+  margin-top: 50px;
+}
+.acaAceptamosVerytip {
+  background: url(../../assets/images/vidriera.png) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 550px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+.acaAceptamosVerytip h2 {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
+.acaAceptamosVerytip p {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+}
+.opiniones {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.opiniones img {
+  border-radius: 100%;
+  height: auto;
+  width: 40%;
+  -webkit-box-shadow: 3px -3px 30px 8px rgba(0, 0, 0, 0.55);
+  -moz-box-shadow: 3px -3px 30px 8px rgba(0, 0, 0, 0.55);
+  box-shadow: 3px -3px 30px 8px rgba(0, 0, 0, 0.55);
+  margin-bottom: 15px;
+}
+.opiniones h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #169e84;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.opiniones p {
+  font-size: 15px;
+  font-style: italic;
+  color: grey;
+}
+.opiniones h4 {
+  font-size: 13px;
+  margin-top: 3px;
+  font-weight: 600;
+}
+.descarga {
+  text-align: center;
+}
+.preFooter {
+  margin-bottom: 50px;
+}
+.descarga .apple {
+  text-align: right;
+  background-color: black;
+}
+.descarga .apple img {
+  height: auto;
+  width: 100%;
+}
+.descarga .apple a:hover {
+  opacity: 0.7;
+}
+.descarga .android {
+  text-align: left;
+}
+.descarga .android a:hover {
+  opacity: 0.7;
+}
+.tituloDescargaApp {
+  text-align: center;
+}
+.footer {
+  background-color: #169e84;
+  height: auto;
+  padding-top: 20px;
+  color: #fff;
+}
+.footer .footerText {
+  height: auto;
+  font-size: 13px;
+}
+.footer .footerRedes {
+  height: auto;
+  text-align: right;
+}
+.footer a {
+  color: #fff;
+  font-size: 13px;
+}
+.btn-whatsapp {
+  display: block;
+  width: 75px;
+  height: 100px;
+  color: #fff;
+  position: fixed;
+  right: 20px;
+  bottom: 75px;
+  border-radius: 50%;
+  line-height: 80px;
+  text-align: center;
+  z-index: 999;
+}
+.btn-whatsapp:hover {
+  opacity: 0.5;
+}
+.tituloDescargaApp h2 {
+  color: #169e84;
+  font-size: 30px;
+  margin-bottom: 50px;
+  font-family: "Montserrat", sans-serif;
+}
+.facebook {
+  font-size: 20px;
+}
+.instagram {
+  font-size: 20px;
+}
+.botonEstablecimientos {
+  border-radius: 100px;
+  background-color: #169e84;
+  color: #fff;
+  padding: 10px;
+}
+.contendorDescarga {
+  background-color: #ccc;
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+.paraQueSirve {
+  background-color: #ecf0f1;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.paraQueSirve h2 {
+  text-align: center;
+}
+.paraQueSirve h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.logosApps {
+  height: auto;
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  border-top: solid 10px #169e84;
+}
+.paraQueSirve h2 {
+  font-size: 35px;
+  color: #169e84;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 5px;
+}
+.paraQueSirve h3 {
+  font-size: 18px;
+  color: grey;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  margin-bottom: 40px;
+}
+.paraQueSirve h4 {
+  font-size: 20px;
+  color: #169e84;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+.paraQueSirve p {
+  font-family: "Montserrat", sans-serif;
+  color: #333;
+  font-size: 15px;
+}
+.verde {
+  color: #169e84;
+}
+.heart {
+  color: red;
+}
+.destaque {
+  font-weight: 500;
+  font-size: 14px;
+  background-color: yellow;
+}
+.subrayado {
+  background-color: yellow;
+}
+.bordeA {
+  border-right: 1px solid #fff;
+}
+.ayudaSolidaria {
+  background: url(../../assets/images/ayuda-solidaria.png) no-repeat center
+    center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ayudaSolidaria h2 {
+  color: #fff;
+}
+.ayudaSolidaria p {
+  color: #fff;
+}
+.colb {
+  margin: 0;
+  padding: 0;
+}
+.uso {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  text-align: center;
+  height: auto;
+}
+.usoCol {
+  height: auto;
+}
+.usoCol h3 {
+  color: #333;
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.icons {
+  font-size: 70px;
+  margin-bottom: 20px;
+  color: #169e84;
+}
+.verytipLogo {
+  color: #169e84;
+  font-family: "Pacifico", cursive;
+  font-size: 60px;
+  margin: 0;
+  padding: 0;
+}
+.tituloBajateLaApp {
+  text-align: center;
+  font-size: 45px;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 80px;
+}
+.bajateLaApp {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.bajateLaApp img {
+  height: auto;
+  width: 15%;
+}
+.colAppleCool {
+  text-align: right;
+}
+.colAndroidCool {
+  text-align: left;
+}
+.colAndroidCool img {
+  height: auto;
+  width: 16%;
+}
